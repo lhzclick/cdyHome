@@ -38,7 +38,7 @@ let webpackConfig = {
   devtool: "source-map",
   // 配置出口  
   output: {
-    path: path.join(__dirname, "./cdyHome/"),  
+    path: path.join(__dirname, "./dist/"),  
     filename: 'static/js/[name].[hash:7].js',  
     publicPath: '/',  
   },

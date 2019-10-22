@@ -96,10 +96,11 @@ let webpackConfig = {
   ],
   // 起本地服务
   devServer: {  
-    contentBase: "./cdyHome/",  
+    contentBase: "./dist/",  
     historyApiFallback: true,  
     inline: true,  
-    hot: true,  
+    hot: true, 
+    open:true, 
     host: '127.0.0.1',
     port: 8090,
   }  
