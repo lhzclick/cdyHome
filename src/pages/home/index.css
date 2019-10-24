@@ -1,0 +1,26 @@
+.midpic{
+	width: 100%;
+	background: #262930;
+}
+
+.midpicz{
+	width: 1183px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#myFocus{
+	height: 120px!important;
+	width: 1163px;
+}
+
+.pic img{
+	width: 1163px;
+	height: 120px;
+}
+.prev,.next{
+	display: none;
+}
+.pic ul:nth-last-child(1){
+	width:100%!important;
+}

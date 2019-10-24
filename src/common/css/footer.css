@@ -1,0 +1,51 @@
+.footer-box{
+  margin:0 auto;
+  background-color:#141212;
+}
+.footbg{padding:30px 0 10px 0;}
+.clear{
+  clear:both;
+}
+.big-txt{
+	color:#fff;
+	font-size:16px;
+	margin-bottom: 20px;
+  	text-decoration: none;
+  	display:block;
+}
+.small-txt{
+  	color:#fff;
+  	font-size:14px;
+  	margin-bottom: 13px;
+  	text-decoration: none;
+  	display:block;
+}
+.luokuan p{
+  	display:inline;
+  	font-family: "微软雅黑";
+  	font-size:12px;
+  	color:#fff;
+}
+.luokuan2{
+	color:#fff;
+	display:inline;
+	padding-left:20px;
+}
+/*媒体查询样式  */
+@media screen and (max-width:980px){
+.big-txt{
+	color:#fff;
+	font-size:14px;
+	margin-bottom: 20px;
+ 	text-decoration: none;
+  	display:block;
+  	font-weight:bold;
+}
+.small-txt{
+ 	color:#fff;
+  	font-size:12px;
+  	margin-bottom:13px;
+  	text-decoration: none;
+  	display:block;
+}
+}

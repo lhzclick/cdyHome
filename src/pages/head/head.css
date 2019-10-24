@@ -1,0 +1,14 @@
+.home_title{
+    height: 60px;
+    line-height: 60px;
+    background: #141213;
+}
+.home_top{
+    width: 1200px;
+    margin:0 auto;
+    font-size: 20px;
+    color: #fff;
+}
+.home_top span{
+    font-weight: bold;
+}
