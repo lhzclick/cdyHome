@@ -14,5 +14,26 @@ module.exports = [
     name: 'contact',
     html: 'contact/contact.html',
     jsEntry: 'contact/contact.js'
+  },
+  {
+    name: 'whatlsy',
+    html: 'whatlsy/whatlsy.html',
+    jsEntry: 'whatlsy/whatlsy.js'
+  },
+  {
+    name: 'zhcs',
+    html: 'zhcs/zhcs.html',
+    jsEntry: 'zhcs/zhcs.js'
+  },
+  {
+    name: 'zhsw',
+    html: 'zhsw/zhsw.html',
+    jsEntry: 'zhsw/zhsw.js'
+  }
+  ,
+  {
+    name: 'zlwd',
+    html: 'zlwd/zlwd.html',
+    jsEntry: 'zlwd/zlwd.js'
   }
 ]

@@ -1,0 +1,82 @@
+.filebot{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.filebot li{
+	width: 380px;
+	height: 210px;
+	margin: 30px 30px 0 0;
+	float: left;
+}
+
+.filebot .filebot1{
+	background: url(http://hfdzhg.cn/img/cdyHome/index1/cpsm.jpg) no-repeat 0 0;
+}
+
+.filebot .filebot2{
+	background: url(http://hfdzhg.cn/img/cdyHome/index1/azts.jpg) no-repeat 0 0;
+}
+
+.filebot .filebot3{
+	background: url(http://hfdzhg.cn/img/cdyHome/index1/tyjr.jpg) no-repeat 0 0;
+	margin-right: 0;
+}
+
+.filebot .filebot4{
+	background: url(http://hfdzhg.cn/img/cdyHome/index1/jjfa.jpg) no-repeat 0 0;
+}
+
+.filebot .filebot5{
+	background: url(http://hfdzhg.cn/img/cdyHome/index1/dsjzd.jpg) no-repeat 0 0;
+}
+
+.filebot .filebot6{
+	background: url(http://hfdzhg.cn/img/cdyHome/index1/jia.jpg) no-repeat 0 0;
+	margin-right: 0;
+}
+
+.filebot ul{
+	width: 100%;
+	height: 100%;
+	padding-top: 10px;
+	background: rgba(3,3,3,.5);
+	color: #fff;
+	overflow: hidden;
+	font-size: 16px;
+	display: none;
+}
+
+.filebot ul li{
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+	float: left;
+	text-indent: 10px;
+}
+
+.filebot a:hover{
+	color: #3d8fdb;
+}
+
+.filebot li:hover ul{
+	display: block;
+}
+.titlepic .titletext1 {
+    font-size: 40px;
+    position: absolute;
+    left: 19%;
+    top: 188px;
+    color: #fff;
+}
+.titlepic .titletext2 {
+    font-size: 24px;
+    position: absolute;
+    left: 19%;
+    top: 290px;
+    color: #fff;
+}
+.filebot1 a{
+    color: #fff;
+}

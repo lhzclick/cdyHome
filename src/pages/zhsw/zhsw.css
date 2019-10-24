@@ -1,0 +1,175 @@
+.titlepic{
+	position: relative;
+	color: #fff;
+	height: 500px;
+	background: #262930;
+	overflow: hidden;
+}
+
+.titlepic img{
+	width: 1920px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -960px;
+}
+
+.titlepic .titletext1{
+	font-size: 40px;
+	position: absolute;
+	left: 19%;
+	top: 188px;
+}
+
+.titlepic .titletext2{
+	font-size: 24px;
+	position: absolute;
+	left: 19%;
+	top: 290px;
+}
+
+.midtext{
+	width: 100%;
+	background: #f0f4f7;
+	padding: 48px 0 80px;
+}
+
+.midtext p{
+	color: #333;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.midtext .midtext1{
+	font-size: 34px;
+	line-height: 66px;
+}
+
+.midtext .midtext2{
+	font-size: 16px;
+}
+
+.bottitle{
+	font-size: 30px;
+	color: #fff;
+	line-height: 56px;
+	text-align: center;
+	margin: 0 auto;
+	background: #313847;
+}
+
+
+
+.botcontent{
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto 40px;
+}
+
+.botcontent li{
+	width: 180px;
+	margin: 0 30px;
+	float: left;
+}
+
+.botcontent div{
+	width: 120px;
+	height: 120px;
+	margin: 0 30px 18px;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	line-height: 120px;
+	font-size: 20px;
+	background: #09dbd4;
+}
+
+.botcontent p{
+	width: 100%;
+	font-size: 16px;
+	line-height: 29px;
+	color: #fff;
+}
+.botcontent .forCompany{
+	width: 400px;
+	font-size: 24px;
+	text-align: center;
+	margin: 10px 0 30px 0;
+}
+.cpqyCont li{
+	width: 200px;
+	margin: 0
+}
+.cpqyCont img{
+	visibility:hidden;
+}
+.cpqyCont div{
+	width: 120px;
+	height: 120px;
+	margin: 0 40px 18px;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	line-height: 120px;
+	font-size: 20px;
+	background: #09dbd4;
+	cursor: pointer;
+}
+/******************************ZHSW*****************************/
+.slideBox{ position:relative;height:500px; overflow:hidden; margin:auto;/* 锟斤拷锟矫斤拷锟斤拷图锟斤拷锟斤拷锟� */ }
+		.slideBox .hd{ position:absolute; height:28px; bottom:30px; right:46%; z-index:1; }
+		.slideBox .hd li{ display:inline-block; width:20px; height:4px; background:#fff; text-indent:-9999px; overflow:hidden; margin:0 12px;   }
+		.slideBox .hd li.on{ background:#3cbbfa;  }
+		.slideBox .bd{ position:relative; z-index:0; }
+		.slideBox .bd li{ position:relative; text-align:center;  }
+		.slideBox .bd li img{height:500px;  vertical-align:top; width:100%;/* 图片锟斤拷锟�100%锟斤拷锟斤到锟斤拷锟斤拷应效锟斤拷 */}
+		.next,.prev{
+			 position:absolute;
+			 right:0;
+			 top:180px;
+			  background:#1c1e23 url(http://hfdzhg.cn/img/cdyHome/index1/next.png) no-repeat center center; 
+			 width:50px;
+			 height:140px;
+			 border-radius:5px 0 0 5px;
+		}
+		.prev:hover{
+			background-color:#121316;
+		}
+		.next:hover{
+			background-color:#121316;
+		}
+		.prev{
+			 position:absolute;
+			left:0;
+			 top:180px;
+			 background-image:url(http://hfdzhg.cn/img/cdyHome/index1/prev.png) 
+		}
+		
+		.tabTitle{
+		     width:100%;
+			 position:absolute;
+			 left:0;
+			 top:60px;
+			 font-size:42px;
+			 font-weight:bold;
+			 color:#fff;
+			 text-align:center;
+			 letter-spacing:5px;
+		}
+		.titletext1{
+			position:absolute;
+			top:180px;
+			left:20%;
+			color:#fff;
+			font-size:42px;
+			font-weight:bold;
+			
+		}
+		.titletext2{
+			position:absolute;
+			top:300px;
+			left:20%;
+			color:#fff;
+			font-size:24px;
+		}

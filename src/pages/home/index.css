@@ -24,3 +24,100 @@
 .pic ul:nth-last-child(1){
 	width:100%!important;
 }
+.bot{
+	width: 1183px;
+	margin: 0 auto;
+	overflow: hidden;
+	color: #fff;
+}
+
+.bot a{
+	position: relative;
+	color: #fff;
+	overflow: hidden; 
+}
+
+.bot span,.bot p{
+	z-index: 10;
+}
+
+.bigimg{
+	transition: all 0.6s;
+}
+.bot a:hover .bigimg{
+	transform: scale(1.4);
+}
+.lsypt .lsyptext1{
+	font-size: 24px;
+	position: absolute;
+	left: 30px;
+	top: 210px;
+}
+
+.lsypt .lsyptext2{
+    color: #fff;
+	font-size: 14px;
+	position: absolute;
+	line-height: 24px;
+	left: 30px;
+	top: 252px;
+}
+
+.lsypt .lsyptext3{
+	font-size: 20px;
+	position: absolute;
+	left: 64px;
+	top: 380px;
+	color: #3d8fdb;
+}
+
+.whatlsytext1,.zhswtext1,.zhcstext1,.zywdtext1{
+	font-size: 24px;
+	position: absolute;
+	left: 30px;
+	top: 140px;
+}
+
+.whatlsytext2,.zhcstext2,.zywdtext2{
+	font-size: 14px;
+	position: absolute;
+	left: 30px;
+	top: 180px;
+}
+
+.zhswtext2{
+	font-size: 14px;
+	position: absolute;
+	line-height: 20px;
+	left: 30px;
+	top: 180px;
+}
+
+.clickin{
+	position: absolute;
+	left: 30px;
+	top: 382px;
+}
+
+.bottext{
+	width: 100%;
+	height: 120px;
+	margin: 0 auto;
+	line-height: 120px;
+	color: #525252;
+	text-align: center;
+	font-size: 16px;
+	background: #f0f4f7;
+}
+
+#banner_image a{
+	cursor: default;
+}
+
+.midpic a{
+	cursor: default;
+}
+
+h2{
+	font-size: 22px;
+}
