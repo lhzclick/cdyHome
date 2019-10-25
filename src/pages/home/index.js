@@ -4,7 +4,7 @@
 import './index.css'
 import '../../common/css/footer.css'
 import '../../common/css/header.css'
-import '../head/head.css'
+import '../../common/css/head.css'
 
 // js
 import '../../common/js/config'

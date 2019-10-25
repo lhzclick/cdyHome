@@ -1,0 +1,176 @@
+
+.gateway img{
+    width:100%;
+}
+.wisdom_water{
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+}
+.wisdom_l,.wisdom_r{
+    float: left;
+}
+.wisdom_l{
+    margin-right: 20px;
+    width: 180px;
+    line-height: 28px;
+    padding: 97px 0;
+    text-align: center;
+    background: #f0f4f7;
+}
+.wisdom_r{
+    height: 100%;
+    width: 900px;
+    background: #f0f4f7;
+    padding-left: 100px;
+    position: relative;
+}
+.wisdom_r div{
+    float:left;
+    height: 240px;
+    margin: 5px 0;
+}
+.wisdom_r img{
+    width: 100%;
+}
+.wisdom_r .img{
+    width: 320px;
+    height: 184px;
+    padding: 28px 0;
+    margin-left: 80px;
+}
+.wisdom_r .prev,.wisdom_r .next{
+    position: absolute;
+    right: 0;
+    top: 75px;
+    background: #1c1e23 url(http://hfdzhg.cn/img/cdyHome/index1/next.png) no-repeat center center;
+    width: 50px;
+    height: 100px;
+    border-radius: 5px 0 0 5px;
+}
+.wisdom_r .prev{
+    left: 0;
+    background: #1c1e23 url(http://hfdzhg.cn/img/cdyHome/index1/prev.png) no-repeat center center;
+}
+.industry_data{
+    background: #4478bc;
+    margin-top: 30px;
+    padding: 28px 0;
+    height: 288px;
+}
+.data_box{
+    width: 1200px;
+    margin: 0 auto;
+    height: 288px;
+}
+.industry_word{
+    float: left;
+    line-height: 288px;
+    text-align: center;
+    background: #f0f4f7;
+    width: 180px;
+    margin-right:20px;
+}
+.industry_tab,.industry_tab li{
+    float: left;
+}
+.industry_tab li{
+    width: 320px;
+    margin-right: 20px;
+}
+.industry_tab img{
+    width: 100%;
+    height: 120px;
+}
+.botLit{
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: 22px;
+    text-align: center;
+    color: #000 !important;
+}
+.botLic{
+    font-size: 14px;
+    color: #7a7a7a;
+    text-align: center;
+    line-height: 34px;
+}
+.comeIn{
+    font-size: 12px;
+    color: #f4a026;
+    text-align: center;
+    line-height: 36px;
+}
+.industry_tab div{
+    background: #fff;
+    cursor: pointer;
+}
+.choise_tab{
+	background:url(http://hfdzhg.cn/img/cdyHome/index2/beijing.jpg) no-repeat center center;
+}
+.choise_tab li{
+	line-height:96px;
+	background:url(http://hfdzhg.cn/img/cdyHome/index2/KJSQ_XF.png) no-repeat center center;
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+	cursor:pointer;
+}
+.choise_tab li:nth-of-type(2){
+	background-image:url(http://hfdzhg.cn/img/cdyHome/index2/SQFW_XF.png);
+}
+.choise_tab li:nth-of-type(3){
+	background-image:url(http://hfdzhg.cn/img/cdyHome/index2/SJGL_XF.png);
+}
+.choise_tab li:nth-of-type(1):hover{
+	background-image:url(http://hfdzhg.cn/img/cdyHome/index2/KJSQ.png);
+}
+.choise_tab li:nth-of-type(2):hover{
+	background-image:url(http://hfdzhg.cn/img/cdyHome/index2/SQFW.png);
+}
+.choise_tab li:nth-of-type(3):hover{
+	background-image:url(http://hfdzhg.cn/img/cdyHome/index2/SJGL.png);
+}
+.btm_box{
+    padding: 50px 0;
+}
+.btm{
+    width: 1200px;
+    height: 456px;
+    margin: 0 auto;
+}
+.btm_left,.btm_right{
+    float: left;
+}
+.btm_left{
+    line-height: 28px;
+    padding: 200px 0;
+    text-align: center;
+    background: #f0f4f7;
+    width: 180px;
+    margin-right: 20px;
+}
+.btm_right{
+    width: 1000px;
+}
+.btm_right p{
+    float: left;
+    padding: 30px 0;
+    height: 80px;
+    width: 60px;
+    background: #e9edf0;
+    text-align: center;
+}
+.cpUl,.rjUl{
+    background: #f0f4f7;
+}
+.cpUl li{
+    float: left;
+    width: 188px;
+    height: 140px;
+}
+.rjUl li{
+   width: 235px;
+   height: 140px;
+   float: left;
+}
