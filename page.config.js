@@ -37,9 +37,9 @@ module.exports = [
     jsEntry: 'zlwd/zlwd.js'
   }
   ,
-  {
-    name: 'allindex',
-    html: 'allindex/allindex.html',
-    jsEntry: 'allindex/allindex.js'
-  }
+  // {
+  //   name: 'allindex',
+  //   html: 'allindex/allindex.html',
+  //   jsEntry: 'allindex/allindex.js'
+  // }
 ]

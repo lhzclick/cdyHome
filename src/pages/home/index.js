@@ -1,11 +1,13 @@
 /* eslint-disable */
-//import 'http://hfdzhg.cn/cdyCommon/js/jquery-3.4.1.min.js'
+
+// css
 import './index.css'
 import '../../common/css/footer.css'
 import '../../common/css/header.css'
-import '../../common/js/config'
-import '../../common/js/myfocus-2.0.4.min.js'
 import '../head/head.css'
+
+// js
+import '../../common/js/config'
 	//设置
 	myFocus.set({
 		id: 'myFocus', //ID
@@ -13,12 +15,7 @@ import '../head/head.css'
 		time: 3,
 	});
 
-//引入公共头部
-var data = {
-    title:'<div class="home_title"><div class="home_top"><img style="margin:7px 10px 0 0" src="' + publicSrc + '/img/cdyHome/index1/logo.png"><span>娄山云</span></div></div>'
-   };
-   var html = template("home_box",data);
-   $('#home_box').html(html);
+
 //banner自动轮播效果
 	var bn_id = 0;
 	var bn_id2= 1;
