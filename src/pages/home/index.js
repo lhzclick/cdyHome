@@ -4,7 +4,7 @@ import './index.css'
 import '../../common/css/footer.css'
 import '../../common/css/header.css'
 import '../../common/js/config'
-//import '../../common/js/myfocus-2.0.4.min.js'
+import '../../common/js/myfocus-2.0.4.min.js'
 import '../head/head.css'
 	//设置
 	myFocus.set({
