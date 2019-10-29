@@ -2,6 +2,9 @@
 .gateway img{
     width:100%;
 }
+.gateway{
+    position: relative;
+}
 .wisdom_water{
     width: 1200px;
     height: 250px;
@@ -55,13 +58,13 @@
 .industry_data{
     background: #4478bc;
     margin-top: 30px;
-    padding: 28px 0;
-    height: 288px;
+    height: 344px;
 }
 .data_box{
     width: 1200px;
     margin: 0 auto;
     height: 288px;
+    padding: 28px 0;
 }
 .industry_word{
     float: left;
@@ -173,4 +176,129 @@
    width: 235px;
    height: 140px;
    float: left;
+}
+.architecture{
+    width: 1200px;
+    margin: auto;
+    background:url(http://hfdzhg.cn/img/cdyHome/index2/dianjijinru.jpg);
+    height:344px;
+    position: relative;
+    top:-28px;
+}
+.entrance{
+    width: 220px;
+    height: 72px;
+    border: 1px solid #fff;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 72px;
+    position: absolute;;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.entrance:hover{
+    background-color: #9b83f5;
+    cursor: pointer;
+}
+.banneIntro{
+    position: absolute;
+    left: 20%;
+    top: 78%;
+    color: #fff;
+    z-index: 2;
+    font-size: 28px;
+}
+.bannerMove {
+    position: absolute;
+    left: 6%;
+    top: 30%;
+    color: #fff;
+    z-index: 2;
+    font-size: 84px;
+    opacity: 0;
+    transform: scale(0);
+    animation: 5s linear bannerMove infinite;
+}
+@keyframes bannerMove{
+	0%{
+		opacity:0;
+		transform:scale(0) ;
+	}
+	40%{
+		opacity:0.75;
+		transform:scale(0.75) ;
+	}
+	100%{
+		opacity:1;
+		transform: scale(1);
+	}
+} 
+.service-app-icon{
+    padding-top: 10px;
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    width:80px;
+    height: 65px;
+    background: #2698d1;
+    color: #fff;
+    cursor: pointer;
+    z-index: 5;
+}
+.service-app-icon p{
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+.service_img{
+    margin: auto;
+    display: block;
+}
+.scanCode {
+    width: 320px;
+    position: absolute;
+    top: 10px; 
+    right: 120px;
+    z-index: 3;
+    box-shadow: 0px 2px 8px -1px #3e8df4;
+}
+.codeTitle {
+    line-height: 42px;
+    background: #2c313d url(http://hfdzhg.cn/img/cdyHome/index2/codeAPP.png) no-repeat 120px center;
+    color: #fff;
+    text-indent: 75px;
+    border-radius: 5px 5px 0 0;
+}
+.codeBody {
+    background: #f0f4f7;
+    padding: 10px 0 0 20px;
+    border-radius: 0 0 5px 5px;
+}
+.codeTab .lastLi{
+    padding-bottom: 5px;
+}
+.codeSign{
+	height:42px;
+}
+.codeSign span{
+    float: left;
+    width: 130px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    background: #2698d1;
+    margin-top: 10px;
+}
+.codeSign span:nth-of-type(1){
+    margin-right: 25px;
+}
+.codeColse{
+    float: right;
+    width: 42px;
+    height: 42px;
+    background: url('http://hfdzhg.cn/img/cdyHome/index2/codeClose.png') no-repeat center center;
 }
